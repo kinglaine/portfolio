@@ -1,0 +1,42 @@
+.background{
+    background-color: rgba(18, 135, 189, 0.945);
+    height: 700px;
+    overflow:hidden;
+    background-image: url("./banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+   
+}
+
+.Info{
+    display: block;
+    text-align: center;
+    padding-top: 6%;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    margin-top: 1%;
+    
+}
+
+.Info #p1{
+    color: rgb(245, 58, 58);
+    font-size: 30px;
+    line-height: 0.5in;
+    font-family: "poppins-medium", sans-serif;
+}
+.Info #p2{
+    color: white;
+    font-size: 50px;
+    line-height: 0.2in;
+    font-family: "poppins-medium", sans-serif;
+}
+.Info #p3{
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    line-height: 0.1in;
+   
+}
