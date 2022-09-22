@@ -1,0 +1,52 @@
+.Technologies{
+    display: block;
+    width: 100%;
+}
+.Technologies #main{
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: left;
+    font-size: large;
+}
+
+.TechnologyList{
+    list-style: none;
+    text-align: left;
+    padding-left: 30%;
+    font-family: "poppins-medium", sans-serif;
+}
+.Technologies span{
+    font-family: "poppins-medium", sans-serif;
+    letter-spacing: 3px;
+}
+.Technologies li{
+    font-size: medium;
+    font-weight: bold;
+}
+
+#paragraph1{
+    line-height: 60%;
+    margin-bottom: 5%;
+}
+
+#paragraph2{
+    line-height: 60%;
+    margin-bottom: 5%;
+} 
+
+#paragraph3{
+    line-height: 60%;
+    margin-bottom: 5%;
+} 
+#paragraph4{
+    line-height: 60%;
+    margin-bottom: 5%;
+}
+#paragraph5{
+    line-height: 60%;
+    margin-bottom: 5%;
+}
+
+.techLogo #name{
+    float: left;
+}

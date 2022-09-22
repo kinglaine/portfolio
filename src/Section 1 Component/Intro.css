@@ -1,25 +1,24 @@
-.background{
-    background-color: rgba(18, 135, 189, 0.945);
-    height: 700px;
-    overflow:hidden;
+.section1{
+    height: 100%;
+    overflow: hidden;
     background-image: url("./banner.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     filter: brightness(1);
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
-   
 }
 
 .Info{
     display: block;
     text-align: center;
-    padding-top: 6%;
+    padding-top: 5%;
+    justify-content: center;
     align-items: center;
     align-content: center;
     overflow: hidden;
-    margin-top: 1%;
-    
+    margin-top: 2%;
 }
 
 .Info #p1{
@@ -35,8 +34,25 @@
     font-family: "poppins-medium", sans-serif;
 }
 .Info #p3{
+    display: block;
     color: rgb(255, 255, 255);
     font-size: 150%;
     line-height: 0.1in;
    
+}
+.connect{
+    position: relative;
+    top: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    letter-spacing: 10px;
+    padding-bottom: 3%;
+}
+#linkedin{
+    cursor: pointer;
+    margin-right: 1%;
+}
+#github{
+    cursor: pointer;
 }

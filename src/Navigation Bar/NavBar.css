@@ -24,14 +24,14 @@
    background-color: black;
    border-radius: 5px;
 }
-ul{
+#NavList{
    list-style: none;
 }
-ul li{
+#NavList li{
    padding: 10%;
    transition-duration: 300ms;
 }
-ul li:hover{
+#NavList li:hover{
    transition-duration: 500ms;
    margin-left: 10%;
    cursor: pointer;

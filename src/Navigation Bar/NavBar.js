@@ -16,7 +16,7 @@ function NavBar(){
             <span className="Name"><strong>WOOD</strong></span>
             {isClick? 
                     <div className="DropDown">
-                        <ul>
+                        <ul id="NavList">
                             <li>Home</li>
                             <li>About</li>
                             <li>Resume</li>

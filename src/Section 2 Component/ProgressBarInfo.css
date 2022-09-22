@@ -1,0 +1,33 @@
+#progressInfoContainer{
+    height: 20px;
+    margin-bottom: 20px;
+}
+.rectangle{
+    background-color: black;
+    width: 9%;
+    height: 25px;
+    border-radius: 5px;
+    color: rgb(184, 187, 184);
+    font-family: "poppins-medium", sans-serif;
+    text-align: center;
+}
+
+#percent{
+    padding-top: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "poppins-medium", sans-serif;
+    font-size: small;
+}
+.rectangle::after{
+    content: "";
+    position: relative;
+    top: 10px;
+    width: 1%;
+    margin-top: 10%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+}
+

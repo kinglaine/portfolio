@@ -1,0 +1,35 @@
+.section2{
+    overflow: hidden;
+    background-color: rgba(56, 59, 59, 0.541);
+    padding-bottom: 5%;
+    
+}
+.introduction{
+    text-align: center;
+}
+
+
+.introduction p{
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: center;
+    font-size: larger;
+}
+.introduction h1, h4{
+    font-family: "poppins-medium", sans-serif;
+}
+.introduction h4{
+    color: rgb(245, 58, 58);
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+#container2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#container3{
+    display: flex;
+    justify-content: center;
+}
