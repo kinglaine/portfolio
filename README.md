@@ -1,2 +1,2 @@
 # Portfolio
-This repo tracks changes from my Web-portfolio
+This repo tracks changes for my Web-portfolio
