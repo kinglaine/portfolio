@@ -1,0 +1,30 @@
+#MyInfoCOntainer{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#span1{
+    color: red;
+    text-align: center;
+    font-family: "poppins-medium", sans-serif;
+}
+#p1{
+    color: grey;
+    font-family: "poppins-medium", sans-serif;
+}
+
+.address{
+    text-align: center;
+    
+    
+}
+
+.telephone{
+   text-align: center;
+    
+}
+.mail{
+    text-align: center;
+}

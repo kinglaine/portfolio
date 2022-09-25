@@ -24,16 +24,23 @@
    background-color: black;
    border-radius: 5px;
 }
-#NavList{
+.NavList{
    list-style: none;
+   text-decoration: none;
 }
-#NavList li{
+.NavList li{
+   text-decoration: none;
    padding: 10%;
    transition-duration: 300ms;
 }
-#NavList li:hover{
+.NavList li:hover{
    transition-duration: 500ms;
    margin-left: 10%;
    cursor: pointer;
    color: rgb(245, 58, 58);
+}
+#s1{
+   text-decoration: none;
+   color: white;
+   list-style: none;
 }

@@ -6,7 +6,7 @@ import DownloadCV from "./DownloadCV";
 
 function AboutMe(){
     return(
-        <section className="section2">
+        <section id="section2">
             <div className="introduction">
                 <h4><b>ABOUT</b></h4>
                 <h1>Let me introduce myself.</h1>

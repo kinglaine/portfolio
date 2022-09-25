@@ -1,8 +1,8 @@
-.section2{
+#section2{
     overflow: hidden;
     background-color: rgba(56, 59, 59, 0.541);
     padding-bottom: 5%;
-    
+    transition-delay: 300ms;
 }
 .introduction{
     text-align: center;

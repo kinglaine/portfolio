@@ -2,9 +2,9 @@ import "./About.css"
 
 function About(){
     return(
-        <div className="container">
-            <span><b>MORE ABOUT ME</b></span>
-        </div>
+        <a href="#section2">
+            <button id="moreButton"><b>More About Me</b></button>
+        </a>
     );
 }
 export default About;

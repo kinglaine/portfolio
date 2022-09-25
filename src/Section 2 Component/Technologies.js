@@ -20,7 +20,7 @@ function Technologies(){
                 </div>
                 <div id="paragraph2">
                     <div className="techLogo">
-                        <li id="name">ANDROID-STUDIO &nbsp;</li> <img  src = {androidLogo} width = {10} alt = "android-studio logo"></img>
+                        <li id="name">ANDROID-STUDIO &nbsp;</li> <img src = {androidLogo} width = {10} alt = "android-studio logo"></img>
                     </div>
                     <p>Used to build 3 apps. Currenlty making an Ecommerce app.</p>
                 </div>

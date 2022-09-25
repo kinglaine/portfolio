@@ -1,20 +1,14 @@
-.container{
-    width: 10%;
+#moreButton{
     height: 60px;
-    border: 4px solid rgba(173, 168, 168, 0.863);
+    width: 10%;
+    border: 2px solid grey;
+    background-color: transparent;
     color: white;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-    overflow: hidden;
-    font-family: "poppins-medium", sans-serif;
-    font-size: small;
-    transition-duration: 300ms;
-}
-.container:hover{
-    border: 4px solid rgb(245, 58, 58);
     cursor: pointer;
+    font-family: "poppins-medium", sans-serif;
+    font-size: medium;
+}
+
+#moreButton:hover{
+    border: 2px solid red;
 }

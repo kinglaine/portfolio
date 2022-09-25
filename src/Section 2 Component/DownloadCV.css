@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: auto;
+    overflow: hidden;
     font-family: "poppins-medium", sans-serif;
     margin-left: 3%;
     margin-top: 5%;
@@ -19,6 +19,6 @@
 }
 
 .Download:hover{
-    background-color: rgba(0, 0, 0, 0.842);
     cursor: pointer;
+    filter: brightness(3);
 }

@@ -1,0 +1,21 @@
+.connect{
+    position: relative;
+    padding-top: 10%;
+    letter-spacing: 10px;
+    padding-bottom: 3%;
+}
+#linkedin{
+    fill: white;
+    cursor: pointer;
+    margin-right: 1%;
+}
+#github{
+    cursor: pointer;
+}
+
+#linkedin:hover{
+    filter: invert(74%) sepia(31%) saturate(4113%) hue-rotate(192deg) brightness(101%) contrast(101%);
+}
+#github:hover{
+    filter: invert(100%) sepia(73%) saturate(0%) hue-rotate(250deg) brightness(95%) contrast(106%);
+}
