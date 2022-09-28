@@ -1,2 +1,3 @@
-# Portfolio
-This repo tracks changes from my Web-portfolio
+# Portfolio with Reactjs
+### This site is still under construction...
+## This repo tracks changes for my Web-portfolio
