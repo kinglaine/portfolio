@@ -13,6 +13,7 @@
     border: none;
     min-height: 5%;
     min-width: 50%;
+    font-family: "poppins-medium", sans-serif;
 }
 
 #fullName{

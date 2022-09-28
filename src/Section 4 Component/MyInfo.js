@@ -13,7 +13,7 @@ function MyInfo(){
             <div className="mail">
             <img src={mail} alt = "mail icon"></img>
                 <p  id="span1"><b>EMAIL ME AT</b></p>
-                <p id="p1">gelinw3@gmail.com</p>
+                <p id="p1"><a id="p1" href = "mailto: gelinw3@gmail.com">gelinw3@gmail.com</a></p>
             </div>
             <div className="telephone">
             <img src={phone} alt = "telephone icon"></img>

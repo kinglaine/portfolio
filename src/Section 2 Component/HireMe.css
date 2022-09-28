@@ -17,7 +17,11 @@
 }
 
 .HireMe:hover{
-    border: 3px solid rgb(245, 58, 58);
-    color: rgb(245, 58, 58);
+    border: 3px solid red;
+    color: red;
     cursor: pointer;
+}
+.HireMe a{
+    text-decoration: none;
+    color: red;
 }

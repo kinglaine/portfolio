@@ -1,6 +1,6 @@
 #section3{
     background-color: white;
-    height: 750px;
+    height: 900%;
     width: 100%;
 }
 
@@ -11,7 +11,7 @@
 }
 
 #paragrahps1 h4{
-    color: rgb(245, 58, 58);
+    color: red;
 }
 #paragrahps1 h5{
     color: grey;
@@ -19,4 +19,13 @@
 
 #paragrahps1 h1{
     color: black;
+}
+
+.webProjects{
+    display:flex;
+    justify-content: center;
+}
+.mobileProjects{
+    display: flex;
+    justify-content: center;
 }

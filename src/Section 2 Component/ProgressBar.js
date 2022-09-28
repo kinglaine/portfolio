@@ -1,6 +1,4 @@
 import "./ProgressBar.css"
-import ProgressBarInfo from "./ProgressBarInfo";
-
 function ProgressBar({progress}){
     return(
         <div>

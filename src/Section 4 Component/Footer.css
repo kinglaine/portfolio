@@ -1,10 +1,11 @@
 #section4{
     background-color: black;
     height: 100%;
+    font-family: "poppins-medium", sans-serif;
 }
 
 #section4 h4{
-    color: rgb(245, 58, 58);
+    color: red;
 }
 
 #section4 h1{

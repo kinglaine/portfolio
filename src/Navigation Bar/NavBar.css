@@ -15,7 +15,14 @@
 }
 .Name{
    padding-left: 15%;
-   letter-spacing: 5px;
+   letter-spacing: 2px;
+   padding-top: 2%;
+}
+.Name li{
+   color: red;
+   margin-top: -15%;
+   font-weight: bold;
+   
 }
 .DropDown{
    position: absolute;
@@ -37,10 +44,12 @@
    transition-duration: 500ms;
    margin-left: 10%;
    cursor: pointer;
-   color: rgb(245, 58, 58);
+   color: red;
+   font-weight: bold;
 }
 #s1{
    text-decoration: none;
    color: white;
    list-style: none;
 }
+
