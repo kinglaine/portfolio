@@ -2,7 +2,7 @@ import "./Technologies.css"
 import adobeLogo from"../Icons/adobeXD.svg"
 import androidLogo from "../Icons/android-studio.svg"
 import eclipseLogo from  "../Icons/eclipse.svg"
-import postgreLogo from"../Icons/postgresql.svg"
+import postgresLogo from"../Icons/postgresql.svg"
 import reactLogo from"../Icons/react.svg"
 import gitLogo from "../Icons/git.svg"
 function Technologies(){
@@ -22,7 +22,7 @@ function Technologies(){
                     <div className="techLogo">
                         <li id="name">ANDROID-STUDIO &nbsp;</li> <img src = {androidLogo} width = {10} alt = "android-studio logo"></img>
                     </div>
-                    <p>Used to build 3 apps. Currenlty making an Ecommerce app.</p>
+                    <p>Used to build 3 apps. Currently making an E-Commerce app.</p>
                 </div>
                 <div id="paragraph3">
                     <div className="techLogo">
@@ -34,11 +34,11 @@ function Technologies(){
                     <div className="techLogo">
                     <li id="name"> ECLIPSE &nbsp;</li> <img  src = {eclipseLogo} width = {10} alt = "eclipse ide logo"></img>
                     </div>
-                    <p>I use eclipse for class activies and mostly debugging.</p>
+                    <p>I use eclipse for class activities and mostly debugging.</p>
                 </div>
                 <div id="paragraph5">
                     <div className="techLogo">
-                    <li id="name">POSTGRESQL &nbsp;</li> <img src = {postgreLogo} width = {10} alt = "postgresql logo"></img>
+                    <li id="name">POSTGRESQL &nbsp;</li> <img src = {postgresLogo} width = {10} alt = "postgresql logo"></img>
                     </div>
                     <p>I use postgresql mostly for school projects.</p>
                 </div>
@@ -46,7 +46,7 @@ function Technologies(){
                     <div className="techLogo">
                     <li id="name">GIT &nbsp;</li> <img src = {gitLogo} width = {10} alt = "git logo"></img>
                     </div>
-                    <p>I use git and github to track and manage my projects</p>
+                    <p>I use git and github to track and manage my projects.</p>
                 </div>
             </ul>
 

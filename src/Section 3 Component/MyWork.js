@@ -8,7 +8,7 @@ function MyWork (){
             <div id="paragrahps1">
                 <h4>WORK</h4>
                 <h1>Check Out Some of My Works</h1>
-                <h5>Most recent work shown. Will be updated montlhy!</h5>
+                <h5>Most recent work shown. Will be updated monthly!</h5>
             </div>
             <div className="projectContainer">
                 <div className="webProjects">
@@ -17,8 +17,8 @@ function MyWork (){
                     <Project name={"Guess"} description = {"Browser Game"} link = {"https://github.com/kinglaine/GUESS"} image = {Guess}></Project>
                 </div>
                 <div className="mobileProjects">
-                    <Project name={"Exclusive"} description = {"Ecommerce Mobile Application"}></Project>
-                    <Project name={"Triche"} description = {"Flascard Mobile Application"}></Project>
+                    <Project name={"Exclusive"} description = {"E-Commerce Mobile Application"}></Project>
+                    <Project name={"Triche"} description = {"Flashcard Mobile Application"}></Project>
                 </div>
             </div>
         </div>
