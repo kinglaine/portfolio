@@ -8,12 +8,18 @@
    vertical-align: middle;
    opacity: black;
    padding-bottom: 2%;
+   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.project:hover{
+    filter: drop-shadow(0rem 0rem 0rem rgba(129, 128, 128, 0.253));
 }
 .project:hover > .dark{
     display: block;
 }
 
 #slideText{
+    font-family: "poppins-medium", sans-serif;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -25,10 +31,11 @@
 }
 
 #descriptionOfProject{
+    font-family: "poppins-medium", sans-serif;
     font-size: large;
 }
 #linkToProject{
-    font-weight: lighter;
+    font-family: "poppins-medium", sans-serif;
     color: white;
     text-decoration: none;
 }

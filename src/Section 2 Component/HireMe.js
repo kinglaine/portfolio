@@ -2,9 +2,11 @@ import "./HireMe.css"
 
 function HireMe(){
     return(
-        <div className="HireMe">
-            <a href="#form1"><span><b>HIRE ME</b></span></a>
-        </div>
+            <a href="#form1">
+                <div className="HireMe">
+                    <span><b>HIRE ME</b></span>
+                </div>
+            </a>
     );
 }
 export default HireMe;

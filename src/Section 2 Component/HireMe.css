@@ -1,27 +1,27 @@
 .HireMe{
     border: 3px solid black;
     width: 9%;
-    height: 35px;
-    text-align: center;
+    height: 41px;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: auto;
     font-family: "poppins-medium", sans-serif;
-    margin-top: 5%;
+    position: absolute;
+    right: 50%;
+}
+a{
+  text-decoration: none;  
 }
 
 .HireMe span{
     font-size: small;
     letter-spacing: 2px;
+    color: red;
 }
 
 .HireMe:hover{
     border: 3px solid red;
-    color: red;
     cursor: pointer;
 }
-.HireMe a{
-    text-decoration: none;
-    color: red;
-}
+
+

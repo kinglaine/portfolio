@@ -1,17 +1,18 @@
 .Download{
     background-color: black;
     width: 9%;
-    height: 41px;
+    height: 47px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     font-family: "poppins-medium", sans-serif;
-    margin-left: 3%;
-    margin-top: 5%;
+    position: absolute;
+    left: 50%;
 }
-
+a {
+    text-decoration: none;
+}
 .Download span{
     font-size: small;
     letter-spacing: 2px;
