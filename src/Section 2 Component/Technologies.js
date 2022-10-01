@@ -8,15 +8,15 @@ import gitLogo from "../Icons/git.svg"
 function Technologies(){
     return(
         <div className="Technologies">
-            <span><b>TECHNOLOGIES</b></span>
-            <p id="main">This list includes the tools I’m most proficient at using but is not limited to everything I have in my toolkit.
+            <span id="title"><b>TECHNOLOGIES</b></span>
+            <p id="mains">This list includes the tools I’m most proficient at using but is not limited to everything I have in my toolkit.
             </p>
             <ul className="TechnologyList">
                 <div id="paragraph1">
                     <div className="techLogo">
-                        <li id="name">REACTJS &nbsp;</li> <img  src = {reactLogo} width = {10} alt = "reactjs logo"></img>
+                        <li id="name">REACT JS &nbsp;</li> <img  src = {reactLogo} width = {10} alt = "reactjs logo"></img>
                     </div>
-                    <p>This portfolio was built with Reactjs.</p>
+                    <p>This portfolio was built with React Js.</p>
                 </div>
                 <div id="paragraph2">
                     <div className="techLogo">

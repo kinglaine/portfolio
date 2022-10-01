@@ -2,9 +2,12 @@
     display: block;
     width: 100%;
 }
+.list{
+   margin-top: 6%;
+}
 .Skills p{
     padding-left: 30%;
-    padding-right: 30%;
+    padding-right: 20%;
     text-align: left;
     font-size: large;
 }
@@ -18,6 +21,8 @@
     font-family: "poppins-medium", sans-serif;
     
 }
+
+
 .Skills span{
     font-family: "poppins-medium", sans-serif;
     letter-spacing: 3px;
@@ -25,23 +30,53 @@
 
 #html{
     position: absolute;
-    top: 3%;
+    
 }
 #css{
     position: absolute;
-    top: 22%;
+   
 }
 #javascript{
     position: absolute;
-    top: 44%;
 }
 
 #java{
     position: absolute;
-    top: 65%;
 }
 
 #sql{
     position: absolute;
-    top: 89%;
+}
+
+@media screen and (max-width: 1440px) {
+    .list{
+        margin-top: 5.4%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .list{
+        margin-top: 11%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .list{
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Skills p{
+        padding-left: 3%;
+        padding-right: 3%;
+        text-align: left;
+        font-size: 16px;
+    }
+    .SkillList{
+        padding-left: 3%;
+        padding-right: 3%;
+        
+    }
+    .Skills{
+        margin-top: 10%;
+    }
 }

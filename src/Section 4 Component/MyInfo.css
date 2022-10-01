@@ -29,3 +29,54 @@
 .mail{
     text-align: center;
 }
+
+@media screen and (max-width:950px) {
+    #MyInfoCOntainer{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .address{
+        text-align: center;
+        font-size: small;
+        
+    }
+    
+    .telephone{
+       text-align: center;
+       font-size: small;
+    }
+    .mail{
+        text-align: center;
+        font-size: small;
+    }
+    .contactPic{
+        width: 20%;
+    }
+}
+@media screen and (max-width:425px) {
+    #MyInfoCOntainer{
+        display: block;
+    }
+}
+@media screen and (max-width:320px) {
+    #MyInfoCOntainer{
+        display: block;
+    }
+    .address{
+        text-align: center;
+        font-size: 10px;
+        
+    }
+    
+    .telephone{
+       text-align: center;
+       font-size: 10px;
+    }
+    .mail{
+        text-align: center;
+        font-size: 10px;
+    }
+}

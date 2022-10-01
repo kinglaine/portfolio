@@ -29,3 +29,27 @@
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width:320px) {
+    #paragrahps1 h4{
+        color: red;
+        font-size: 13px;
+    }
+    
+    #paragrahps1 h1{
+        
+        font-size: 15px;
+    }
+    
+    #paragrahps1 h5{
+        color: grey;
+        font-size: 10px;
+    }
+    #paragrahps2{
+        padding-top: 2%;
+        text-align: center;
+        font-family: "poppins-medium", sans-serif;
+    }
+    #copyright{
+        font-size: 10px;
+    }
+}

@@ -2,9 +2,9 @@ import "./DownloadCV.css"
 function DownloadCV(){
     return(
         <a href="#form1">
-        <div className="Download">
+        <button className="Download">
             <span><b>DOWNLOAD CV</b></span>
-        </div>
+        </button>
         </a>
     );
 }

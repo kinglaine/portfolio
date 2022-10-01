@@ -3,7 +3,7 @@ import React from 'react';
 
 function ContactForm() {
   return (
-    <form id="form1" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/myyvwwye" method="post">
+    <form id="form1" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/myyvwwye" method="post" target="_blank">
           <fieldset id="inputs">
             <input type="text" name="name" id="fullName" placeholder="Full Name" required="Your name is required!"/>
             <input type="email" name="_replyto" id="email" placeholder="Email" required="Your email is required!"/>

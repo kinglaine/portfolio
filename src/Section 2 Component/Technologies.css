@@ -2,12 +2,13 @@
     display: block;
     width: 100%;
 }
-.Technologies #main{
+.Technologies #mains{
     padding-left: 30%;
     padding-right: 30%;
     text-align: left;
     font-size: large;
 }
+
 
 .TechnologyList{
     list-style: none;
@@ -24,29 +25,36 @@
     font-weight: bold;
 }
 
-#paragraph1{
-    line-height: 60%;
-    margin-bottom: 5%;
-}
 
-#paragraph2{
-    line-height: 60%;
-    margin-bottom: 5%;
-} 
-
-#paragraph3{
-    line-height: 60%;
-    margin-bottom: 5%;
-} 
-#paragraph4{
-    line-height: 60%;
-    margin-bottom: 5%;
-}
-#paragraph5{
-    line-height: 60%;
-    margin-bottom: 5%;
-}
 
 .techLogo #name{
     float: left;
+}
+
+
+@media screen  and (max-width: 430px) {
+    .Technologies{
+        margin-top: 10%;
+    }
+    .Technologies span{
+        padding-right: 3%;
+        font-size: 14px;
+    }
+    .Technologies #mains{
+        font-family: "poppins-medium", sans-serif;
+        font-size: 16px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .TechnologyList{
+        padding-left: 3%;
+        padding-right: 3%;
+        font-family: "poppins-medium", sans-serif;
+    }
+    .TechnologyList #name{
+        font-size: 14px;
+    }
+    .TechnologyList p{
+        font-size: 16px;
+    }
 }

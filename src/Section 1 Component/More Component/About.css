@@ -1,14 +1,39 @@
 #moreButton{
     height: 60px;
-    width: 10%;
+    width: fit-content;
     border: 2px solid grey;
     background-color: transparent;
     color: white;
     cursor: pointer;
     font-family: "poppins-medium", sans-serif;
     font-size: medium;
+    overflow: hidden;
 }
 
 #moreButton:hover{
     border: 2px solid red;
+}
+
+@media screen and (max-width: 1324px) {
+    #moreButton{
+        width: 15%;
+    }
+}
+@media screen and (max-width: 1030px) {
+    #moreButton{
+        width:20%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #moreButton{
+        width:30%;
+        font-size: small;
+    }
+}
+@media screen and (max-width: 470px) {
+    #moreButton{
+        width: 70%;
+        font-size: 13px;
+    }
 }

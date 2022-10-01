@@ -1,4 +1,6 @@
 #section2{
+    height: fit-content;
+    font-family: "poppins-medium", sans-serif;
     overflow: hidden;
     background-color: rgba(56, 59, 59, 0.541);
     padding-bottom: 5%;
@@ -10,8 +12,8 @@
 
 
 .introduction p{
-    padding-left: 40%;
-    padding-right: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
     text-align: center;
     font-size: larger;
 }
@@ -23,8 +25,73 @@
     letter-spacing: 5px;
     font-weight: bolder;
 }
-#container2{
+#containerSkills{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+#containerButton{
+    margin-bottom: 1%;
+}
+
+
+@media screen  and (max-width: 1235px) {
+    .introduction p{
+        padding-left: 30%;
+        padding-right: 30%;
+        font-family: "poppins-medium", sans-serif;
+    }
+
+}
+@media screen  and (max-width: 1100px) {
+    .introduction p{
+        font-family: "poppins-medium", sans-serif;
+    }
+    #containerButton{
+        padding: 5%;
+    }
+
+}
+@media screen  and (max-width: 900px) {
+    .introduction h4{
+        font-family: "poppins-medium", sans-serif;
+    }
+    .introduction h1{
+        font-family: "poppins-medium", sans-serif;
+    }
+    .introduction p{
+        font-family: "poppins-medium", sans-serif;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    
+
+}
+
+@media screen and (max-width: 430px) {
+    .introduction h4{
+        font-size: 18px;
+        font-family: "poppins-medium", sans-serif;
+    }
+    .introduction h1{
+        font-size: 16px;
+        font-family: "poppins-medium", sans-serif;
+    }
+    .introduction p{
+        font-size: 16px;
+        font-family: "poppins-medium", sans-serif;
+    }
+    .introduction p{
+        padding-left: 3%;
+        padding-right: 3%;
+        font-family: "poppins-medium", sans-serif;
+    }
+    #containerSkills{
+        display: block;
+    }
+    #containerButton{
+        display: flex;
+        justify-content: center;
+        margin-right: 6%;
+    }
 }

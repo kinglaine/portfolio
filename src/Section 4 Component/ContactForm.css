@@ -55,3 +55,20 @@
     margin-top: 2%;
     width: 50%;
 }
+
+@media screen and (max-width: 1024px) {
+    #form1{
+        width: 110%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    #form1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 426px) {
+    #form1{
+        width: 100%;
+    }
+}

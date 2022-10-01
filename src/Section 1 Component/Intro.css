@@ -41,4 +41,54 @@
     font-weight: normal;
    
 }
-
+@media screen and (max-width:320px) {
+    .Info #p1{
+        font-size: 13px
+    }
+    .Info #p2{
+        font-size: 15px
+    }
+    .Info #p3{
+       font-size: 10px;
+       
+    }
+}
+@media screen and (max-width: 700px) {
+    .Info #p2{
+        font-size: 2rem;
+     }
+     .Info #p3{
+        font-size: 1rem;
+     }
+}
+@media screen and (max-width: 500px) {
+    .Info #p1{
+       font-size: 1.5rem;
+       line-height: 0.2in;
+       padding-top: 10%;
+    }
+    .Info #p2{
+        font-size: 2rem;
+     }
+     .Info #p3{
+        font-size: 1rem;
+     }
+}
+@media screen and (max-width: 375px) {
+    .Info #p1{
+       font-size: 1.5rem;
+       line-height: 0.2in;
+       padding-top: 10%;
+    }
+    .Info #p2{
+        font-size: 2rem;
+     }
+     .Info #p3{
+        font-size: 0.9rem;
+     }
+}
+@media screen and (max-width: 360px) {
+     .Info #p3{
+        font-size: 0.8rem;
+     }
+}
