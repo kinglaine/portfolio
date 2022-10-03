@@ -1,7 +1,9 @@
 #section4{
     background-color: black;
     height: 100%;
+    width: 100%;
     font-family: "poppins-medium", sans-serif;
+    overflow-x:hidden ;
 }
 
 #section4 h4{
@@ -29,6 +31,7 @@
     color: grey;
     text-align: center;
     padding-left: 3%;
+    padding-right: 3%;
     margin-top: 5%;
     padding-bottom: 1%;
 }
