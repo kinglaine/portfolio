@@ -1,10 +1,11 @@
 .outerShell{
+    margin-left: 35%;
     background-color: rgba(54, 58, 54, 0.548);
-    width: 70%;
+    width: 30%;
     height: 10px;
     border-radius: 2px;
-    margin-top: 1.5%;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
+    text-align: center;
 }
 
 .innerShell{
@@ -13,4 +14,8 @@
     height: 10px;
     background-color: black;
     overflow: hidden;
+}
+#bar{
+    margin-left: 0%;
+    align-items: center;
 }

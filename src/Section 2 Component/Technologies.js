@@ -12,42 +12,41 @@ function Technologies(){
             <p id="mains">This list includes the tools I’m most proficient at using but is not limited to everything I have in my toolkit.
             </p>
             <ul className="TechnologyList">
-                <div id="paragraph1">
-                    <div className="techLogo">
-                        <li id="name">REACT JS &nbsp;</li> <img  src = {reactLogo} width = {10} alt = "reactjs logo"></img>
-                    </div>
+                    <li className="techLogo">
+                        <span id="name">REACT JS &nbsp;</span> <img  src = {reactLogo} width = {10} alt = "reactjs logo"></img>
+                    </li>
                     <p>This portfolio was built with React Js.</p>
-                </div>
-                <div id="paragraph2">
-                    <div className="techLogo">
-                        <li id="name">ANDROID-STUDIO &nbsp;</li> <img src = {androidLogo} width = {10} alt = "android-studio logo"></img>
-                    </div>
+                
+                
+                    <li className="techLogo">
+                        <span id="name">ANDROID-STUDIO &nbsp;</span> <img src = {androidLogo} width = {10} alt = "android-studio logo"></img>
+                    </li>
                     <p>Used to build 3 apps. Currently making an E-Commerce app.</p>
-                </div>
-                <div id="paragraph3">
-                    <div className="techLogo">
-                        <li id="name">ADOBE XD &nbsp;</li><img src = {adobeLogo} width = {10} alt = "adobe xd logo"></img>
-                    </div>
+                
+                
+                    <li className="techLogo">
+                        <span id="name">ADOBE XD &nbsp;</span><img src = {adobeLogo} width = {10} alt = "adobe xd logo"></img>
+                    </li>
                     <p>Use it for designing and prototyping softwares.</p>
-                </div>
-                <div id="paragraph4">
-                    <div className="techLogo">
-                    <li id="name"> ECLIPSE &nbsp;</li> <img  src = {eclipseLogo} width = {10} alt = "eclipse ide logo"></img>
-                    </div>
+                
+                
+                    <li className="techLogo">
+                    <span id="name"> ECLIPSE &nbsp;</span> <img  src = {eclipseLogo} width = {10} alt = "eclipse ide logo"></img>
+                    </li>
                     <p>I use eclipse for class activities and mostly debugging.</p>
-                </div>
-                <div id="paragraph5">
-                    <div className="techLogo">
-                    <li id="name">POSTGRESQL &nbsp;</li> <img src = {postgresLogo} width = {10} alt = "postgresql logo"></img>
-                    </div>
+               
+                
+                    <li className="techLogo">
+                    <span id="name">POSTGRESQL &nbsp;</span> <img src = {postgresLogo} width = {10} alt = "postgresql logo"></img>
+                    </li>
                     <p>I use postgresql mostly for school projects.</p>
-                </div>
-                <div id="paragraph5">
-                    <div className="techLogo">
-                    <li id="name">GIT &nbsp;</li> <img src = {gitLogo} width = {10} alt = "git logo"></img>
-                    </div>
+                
+                
+                    <li className="techLogo">
+                    <span id="name">GIT &nbsp;</span> <img src = {gitLogo} width = {10} alt = "git logo"></img>
+                    </li>
                     <p>I use git and github to track and manage my projects.</p>
-                </div>
+                
             </ul>
 
         </div>

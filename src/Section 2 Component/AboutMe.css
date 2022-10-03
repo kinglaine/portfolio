@@ -14,7 +14,7 @@
     padding-left: 30%;
     padding-right: 30%;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 .introduction h1{
     font-family: "poppins-medium", sans-serif;
@@ -28,14 +28,14 @@
     font-family: "poppins-medium", sans-serif;
 }
 #containerSkills{
-    display: flex;
+    display: block;
+    height: auto;
     justify-content: center;
     text-align: center;
 }
 #containerButton li{
     list-style: none;
     text-align: center;
-    
 }
 
 
@@ -90,7 +90,7 @@
         display: block;
     }
     #containerButton{
-        display: flex;
+        display: block;
         justify-content: center;
         margin-right: 6%;
     }
@@ -98,15 +98,13 @@
 
 @media screen and (max-width: 430px) {
     .introduction h4{
-        font-size: 18px;
+        
         font-family: "poppins-medium", sans-serif;
     }
     .introduction h1{
-        font-size: 16px;
         font-family: "poppins-medium", sans-serif;
     }
     .introduction p{
-        font-size: 16px;
         font-family: "poppins-medium", sans-serif;
     }
     .introduction p{
@@ -118,7 +116,7 @@
         display: block;
     }
     #containerButton{
-        display: flex;
+        display: block;
         justify-content: center;
         margin-right: 6%;
     }

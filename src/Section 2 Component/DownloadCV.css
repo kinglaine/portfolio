@@ -1,9 +1,11 @@
 .Download{
     border: black;
     background-color: black;
+    width: 60%;
     height: 50px;
     text-align: center;
     font-family: "poppins-medium", sans-serif;  
+    margin-top: 1em;
 }
 a {
     text-decoration: none;
@@ -17,20 +19,4 @@ a {
 .Download:hover{
     cursor: pointer;
     filter: brightness(3);
-}
-
-@media screen and (max-width: 1100px) {
-    
-    
-}
-@media screen and (max-width: 768px) {
-    
-}
-@media screen and (max-width: 430px) {
-    .Download{
-        position: relative;
-        height: 50px;
-        width: 105%;
-        right: 2%;
-    }
 }
