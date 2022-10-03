@@ -1,5 +1,5 @@
 #form1{
-    width: 40%;
+    width: 80%;
     height: 5%;
     display: block;
     margin-left: auto;
@@ -56,13 +56,8 @@
     width: 50%;
 }
 
-@media screen and (max-width: 1024px) {
-    #form1{
-        width: 110%;
-    }
-}
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 922px) {
     #form1{
         width: 90%;
         height: 5%;
