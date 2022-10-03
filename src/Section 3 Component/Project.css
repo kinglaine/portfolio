@@ -1,9 +1,11 @@
 .project{
+    background: center center;
    background-color: grey;
    width: 40%;
    border-radius: 5px;
    margin-bottom: 2%;
-   margin-left: 5%;
+   margin-left: 3%;
+   margin-right: 3%;
    text-align: center;
    vertical-align: middle;
    opacity: black;
@@ -47,4 +49,48 @@
     background-color: rgba(0, 0, 0, 0.527);
     height: 100%;
 }
-
+@media screen and (max-width: 4000px) {
+    .project{
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 2560px) {
+    .project{
+        height: 595px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .project{
+        height: 295px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .project{
+        height: 240px;
+    }
+}
+@media screen and (max-width: 914px) {
+    .project{
+        height: 215px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .project{
+        height: 180px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .project{
+        height: 100px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .project{
+        height: 85px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .project{
+        height: 75px;
+    }
+}
