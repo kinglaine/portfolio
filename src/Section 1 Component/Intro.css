@@ -1,13 +1,10 @@
 #section1{
     height: 100%;
-    overflow: hidden;
     background-image: url("./banner.jpg");
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     filter: brightness(1);
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
 }
 
 .Info{
@@ -17,8 +14,6 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    overflow: hidden;
-    margin-top: 2%;
 }
 
 .Info #p1{

@@ -7,8 +7,8 @@ import Exclusive from "../Portfolio Pic/Exclusive.png"
 function MyWork (){
     return(
         <div id="section3">
-            <div id="paragrahps1">
-                <h4>WORK</h4>
+            <div id="paragraphs1">
+                <h4><b>WORK</b></h4>
                 <h1>Check Out Some of My Works</h1>
                 <h5>Most recent work shown. Will be updated monthly!</h5>
             </div>

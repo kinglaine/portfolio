@@ -1,15 +1,9 @@
 .Download{
-    border: 3px solid black;
+    border: black;
     background-color: black;
-    width: 10%;
     height: 50px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "poppins-medium", sans-serif;
-    position: absolute;
-    left: 50%;
+    font-family: "poppins-medium", sans-serif;  
 }
 a {
     text-decoration: none;
@@ -25,23 +19,12 @@ a {
     filter: brightness(3);
 }
 
-@media screen and (max-width: 1355px) {
-    .Download span{
-        font-size: 10px;
-    }
-}
 @media screen and (max-width: 1100px) {
-    .Download span{
-        padding: 2%;
-    }
-    .Download{
-        width: 15%;
-    }
+    
+    
 }
 @media screen and (max-width: 768px) {
-    .Download{
-        width: 16%;
-    }
+    
 }
 @media screen and (max-width: 430px) {
     .Download{

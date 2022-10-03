@@ -1,19 +1,13 @@
 .HireMe{
     border: 3px solid black;
-    width: 10%;
+    background-color: black;
+    width: 60%;
     height: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "poppins-medium", sans-serif;
-    position: absolute;
-    right: 50%;
-    overflow: hidden;
     background-color: transparent;
 }
 a{
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .HireMe span{
@@ -27,26 +21,6 @@ a{
     cursor: pointer;
 }
 
-@media screen and (max-width: 1355px) {
-    .HireMe span{
-        font-size: 10px;
-        letter-spacing: 2px;
-        color: red;
-    }
-}
-@media screen and (max-width: 1100px) {
-    .HireMe{
-        width: 15%;
-    }
-}
-@media screen and (max-width: 430px) {
-    .HireMe{
-        position: relative;
-        height: 50px;
-        width: 180%;
-       
-    }
-}
 
 
 

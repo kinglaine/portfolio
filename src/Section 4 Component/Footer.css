@@ -12,15 +12,15 @@
 
 #section4 h1{
     color:white;
+    font-size: 24px;
 }
 
 #section4 h5{
     color: grey;
 }
-#paragrahps2{
+#paragraphs2{
     padding-top: 2%;
     text-align: center;
-    font-family: "poppins-medium", sans-serif;
 }
 #connections{
     text-align: center;
@@ -38,25 +38,19 @@
 @media screen and (max-width:320px) {
     #section4 h4{
         color: red;
-        font-size: 13px;
     }
     
     #section4 h1{
         color:white;
-        font-size: 15px;
     }
     
     #section4 h5{
         color: grey;
-        font-size: 10px;
     }
-    #paragrahps2{
+    #paragraphs2{
         padding-top: 2%;
         text-align: center;
         font-family: "poppins-medium", sans-serif;
-    }
-    #copyright{
-        font-size: 10px;
     }
 }
 

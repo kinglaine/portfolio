@@ -1,12 +1,12 @@
 .Technologies{
     display: block;
     width: 100%;
+    font-size: 16px;
 }
 .Technologies #mains{
     padding-left: 30%;
     padding-right: 30%;
     text-align: left;
-    font-size: large;
 }
 
 
@@ -30,19 +30,15 @@
 .techLogo #name{
     float: left;
 }
-
-
-@media screen  and (max-width: 430px) {
+@media screen  and (max-width: 600px) {
     .Technologies{
         margin-top: 10%;
     }
     .Technologies span{
         padding-right: 3%;
-        font-size: 14px;
     }
     .Technologies #mains{
         font-family: "poppins-medium", sans-serif;
-        font-size: 16px;
         padding-left: 3%;
         padding-right: 3%;
     }
@@ -51,10 +47,25 @@
         padding-right: 3%;
         font-family: "poppins-medium", sans-serif;
     }
-    .TechnologyList #name{
-        font-size: 14px;
+ 
+}
+
+@media screen  and (max-width: 430px) {
+    .Technologies{
+        margin-top: 10%;
     }
-    .TechnologyList p{
-        font-size: 16px;
+    .Technologies span{
+        padding-right: 3%;
     }
+    .Technologies #mains{
+        font-family: "poppins-medium", sans-serif;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .TechnologyList{
+        padding-left: 3%;
+        padding-right: 3%;
+        font-family: "poppins-medium", sans-serif;
+    }
+ 
 }

@@ -17,8 +17,12 @@ function AboutMe(){
                 <Skills></Skills>
             </div>
             <div id="containerButton">
-                <HireMe></HireMe>
-                <DownloadCV></DownloadCV>
+                <ul>
+                    <li>
+                    <HireMe></HireMe>
+                    <DownloadCV></DownloadCV>
+                    </li>
+                </ul>
             </div>
         </section>
     );
