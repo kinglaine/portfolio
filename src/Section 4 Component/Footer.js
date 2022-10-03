@@ -16,7 +16,7 @@ function Footer(){
             <div id="ending">
                 <div id="copyright">
                     <p>&copy; Copyright Woodley Gelin 2022. All rights reserved.</p>
-                    <p>This webpage is still under construction.....</p>
+                    <p>This webpage is still under construction....</p>
                 </div>
             </div>
         </div>
