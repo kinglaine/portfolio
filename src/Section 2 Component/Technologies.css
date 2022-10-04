@@ -11,6 +11,9 @@
     text-align: center;
     
 }
+.techLogo{
+    margin-top: 2.5%;
+}
 
 .TechnologyList{
     padding-left: 1%;
@@ -25,7 +28,7 @@
     letter-spacing: 3px;
 }
 .Technologies li{
-    font-size: medium;
+    font-size: 16px;
     font-weight: bold;
 }
 
