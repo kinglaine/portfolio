@@ -8,17 +8,17 @@ function MyInfo(){
             <div className="mail">
             <img className="contactPic" src={mail} alt = "mail icon"></img>
                 <p  id="span1"><b>EMAIL ME AT</b></p>
-                <p id="p1"><a id="p1" href = "mailto: gelinw3@gmail.com">gelinw3@gmail.com</a></p>
+                <p id="p1"><a id="p1" href = "mailto: woodleydev@gmail.com">woodleydev@gmail.com</a></p>
             </div>
             <div className="address">
             <img className="contactPic" src={pin} alt = "pin icon"></img>
                 <p id="span1"><b>WHERE TO FIND ME</b></p>
-                <p id="p1">Brooklyn, New York 11210</p>
+                <p id="p1">New York</p>
             </div>
             <div className="telephone">
             <img className="contactPic" src={phone} alt = "telephone icon"></img>
                 <p  id="span1"><b>CALL ME AT</b></p>
-                <p id="p1">(+1) 347 970 4691</p>
+                <p id="p1">(+1) 929 900 6168</p>
             </div>
         </div>
     );
