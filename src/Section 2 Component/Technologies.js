@@ -5,37 +5,36 @@ function Technologies(){
     return(
         <div className="Technologies">
             <span id="title"><b>TECHNOLOGIES</b></span>
-            <p id="mains">This list includes the tools I’m most proficient at using but is not limited to everything I have in my toolkit.
-            </p>
+            <p id="mains">The following tools represent my core competencies, but I'm always exploring and expanding my skillset.</p>
             <ul className="TechnologyList">
                     <li className="techLogo">
-                        <span id="name">ANDROID-STUDIO &nbsp;</span>
+                        <span id="name">Android-Studio &nbsp;</span>
                     </li>
                     <p>Used to build 3 apps. Currently making an E-Commerce app.</p>
 
                     <li className="techLogo">
-                    <span id="name">POSTGRESQL &nbsp;</span> 
+                    <span id="name">PostgreSQL &nbsp;</span>
                     </li>
                     <p>I use postgresql mostly for school projects.</p>
 
                     <li className="techLogo">
-                        <span id="name">REACT JS &nbsp;</span> 
+                        <span id="name">REACT &nbsp;</span> 
                     </li>
-                    <p>This portfolio was built with React Js.</p>
+                    <p>This portfolio was built with React Js, and I have experience with React Native</p>
                 
                     <li className="techLogo">
-                        <span id="name">ADOBE XD &nbsp;</span>
+                        <span id="name">Adobe XD &nbsp;</span>
                     </li>
                     <p>Use it for designing and prototyping softwares.</p>
                 
                 
                     <li className="techLogo">
-                    <span id="name"> ECLIPSE &nbsp;</span>
+                    <span id="name"> Eclipse &nbsp;</span>
                     </li>
                     <p>I use eclipse for class activities and mostly debugging.</p>
        
                     <li className="techLogo">
-                    <span id="name">GIT &nbsp;</span>
+                    <span id="name">Git/Github &nbsp;</span>
                     </li>
                     <p>I use git and github to track and manage my projects.</p>
                 
