@@ -4,20 +4,20 @@ function Skills (){
     return(
         <div className="Skills">
             <span><b>SKILLS</b></span>
-            <p>This list includes the languages that I have been using for over 2 years now, I am also familiar with <strong>python</strong> and currently learning <strong>C++</strong>.</p>
+            <p>I have a strong knowledge of the following programming languages. 
+                Additionally, I have some familiarity with other languages and am always eager to learn new ones.</p>
             <ul className="SkillList">
                 <li className="list">
-                    <strong id="javascript">JAVASCRIPT</strong>
+                    <strong id="javascript">Javascript</strong>
                 </li>
                 <li className="list">
-                    <strong id="html">HTML5</strong>
-                </li>
-
-                <li className="list">
-                    <strong id="css">CSS3</strong> 
+                    <strong id="html">Html</strong>
                 </li>
                 <li className="list">
-                    <strong id="java">JAVA</strong>
+                    <strong id="css">Css</strong> 
+                </li>
+                <li className="list">
+                    <strong id="java">Java</strong>
                 </li >
                 <li className="list">
                     <strong id="sql">SQL</strong>
