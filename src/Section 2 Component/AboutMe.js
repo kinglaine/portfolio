@@ -10,7 +10,10 @@ function AboutMe(){
             <div className="introduction">
                 <h4><b>ABOUT</b></h4>
                 <h1>Let me introduce myself.</h1>
-                <p>I’m a computer science student specializing in software engineering. I create beautiful and unique software that make people’s life easy and more enjoyable. I love learning and will always keep on learning. My current goal is to grow my technical and soft skills. I’m willing to work hard and learn from anyone that will teach me.</p>
+                <p>I'm a passionate computer science student with a focus on software engineering. 
+                    My goal is to design and develop innovative software solutions that simplify and enhance people's lives. I'm committed to continuous learning and growth, 
+                    both in terms of technical skills and personal development. I'm always willing to go the extra mile to improve my abilities and collaborate with others to achieve common goals. 
+                    Thank you for checking out my portfolio!</p>
             </div>
             <div id="containerSkills">
                 <Technologies></Technologies>
