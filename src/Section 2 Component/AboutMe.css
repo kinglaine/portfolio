@@ -2,8 +2,7 @@
     height: fit-content;
     font-family: "poppins-medium", sans-serif;
     background-color: rgb(183, 184, 184);
-    padding-bottom: 5%;
-    overflow-y: hidden;
+    padding-top: 1%;
 }
 .introduction{
     text-align: center;
