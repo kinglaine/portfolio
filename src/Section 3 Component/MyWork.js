@@ -15,8 +15,7 @@ function MyWork (){
             </div>
             <div className="projectContainer">
                 <div className="webProjects">
-                    <Project name={"Body-Care"} link = {"https://kinglaine.github.io/Josefina-Body-Care-Collection/"} image = {Josefina}>
-                    </Project>
+                    <Project name={"Body-Care"} link = {"https://kinglaine.github.io/Josefina-Body-Care-Collection/"} image = {Josefina}></Project>
                     <Project name={"Guess"} description = {"Browser Game"} link = {"https://github.com/kinglaine/GUESS"} image = {Guess}></Project>
                 </div>
                 <div className="mobileProjects">
