@@ -5,7 +5,7 @@ import AboutMe from "./Section 2 Component/AboutMe";
 import ToTop from "./Section 1 Component/ToTop";
 import MyWork from "./Section 3 Component/MyWork";
 import Footer from "./Section 4 Component/Footer";
-
+import React from 'react';
 
 function App() {
   return(

@@ -1,6 +1,5 @@
 import "./ContactForm.css";
 import React from 'react';
-
 function ContactForm() {
   return (
     <form id="form1" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/f/myyvwwye" method="post" target="_blank">

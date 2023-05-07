@@ -1,4 +1,5 @@
 import "./ProgressBarInfo.css"
+import React from 'react';
 function ProgressBarInfo({percent, margin_left}){
     return(
         <div id = "progressInfoContainer">

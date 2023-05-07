@@ -3,7 +3,8 @@ import Project  from "./Project";
 import Josefina from "../Portfolio Pic/Josefina/bottom.png";
 import Guess from "../Portfolio Pic/Guess/Play.png";
 import Flashcard from "../Portfolio Pic/FlashCard.jpg";
-import Exclusive from "../Portfolio Pic/Exclusive.png"
+import Exclusive from "../Portfolio Pic/Exclusive.png";
+import React from 'react';
 function MyWork (){
     return(
         <div id="section3">

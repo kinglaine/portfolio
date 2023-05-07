@@ -1,6 +1,7 @@
 import "./Intro.css";
 import About from "./More Component/About";
 import Connect from "./Connect";
+import React from 'react';
 function Header(){
     return(
         <section id="section1" className="section1">

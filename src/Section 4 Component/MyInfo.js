@@ -2,6 +2,7 @@ import "./MyInfo.css";
 import phone from "../Icons/phone.svg"
 import mail from "../Icons/mail.svg"
 import pin from "../Icons/pin.svg"
+import React from 'react';
 function MyInfo(){
     return(
         <div id="MyInfoCOntainer">

@@ -1,5 +1,5 @@
 import "./HireMe.css"
-
+import React from 'react';
 function HireMe(){
     return(
             <a href="#form1">

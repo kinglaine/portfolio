@@ -3,7 +3,7 @@ import Technologies from "./Technologies";
 import Skills from "./Skills";
 import HireMe from "./HireMe";
 import DownloadCV from "./DownloadCV";
-
+import React from 'react';
 function AboutMe(){
     return(
         <section id="section2">

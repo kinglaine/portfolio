@@ -1,10 +1,6 @@
 import "./Technologies.css"
-import adobeLogo from"../Icons/adobeXD.svg"
-import androidLogo from "../Icons/android-studio.svg"
-import eclipseLogo from  "../Icons/eclipse.svg"
-import postgresLogo from"../Icons/postgresql.svg"
-import reactLogo from"../Icons/react.svg"
-import gitLogo from "../Icons/git.svg"
+import React from 'react';
+
 function Technologies(){
     return(
         <div className="Technologies">

@@ -1,7 +1,7 @@
 import ContactForm from "./ContactForm";
 import "./Footer.css"
 import MyInfo from "./MyInfo";
-
+import React from 'react';
 function Footer(){
     return(
         <div id="section4">

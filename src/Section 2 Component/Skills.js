@@ -1,12 +1,6 @@
-import ProgressBar from "./ProgressBar";
 import "./Skills.css"
-import ProgressBarInfo from "./ProgressBarInfo";
-
+import React from 'react';
 function Skills (){
-    //percentages for progress bar
-    const ninety = 90;
-    const ninetyfive = 95;
-    const eighty = 80;
     return(
         <div className="Skills">
             <span><b>SKILLS</b></span>
