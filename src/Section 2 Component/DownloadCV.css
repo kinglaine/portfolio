@@ -7,6 +7,19 @@
     font-family: "poppins-medium", sans-serif;  
     margin-top: 1em;
 }
+.Close{
+    border: black;
+    background-color: black;
+    width: 60%;
+    height: 50px;
+    text-align: center;
+    font-family: "poppins-medium", sans-serif;  
+    margin-top: 1em;
+}
+.Close span{
+    font-size: small;
+    letter-spacing: 2px;
+}
 a {
     text-decoration: none;
 }
@@ -16,6 +29,9 @@ a {
     color: grey;
 }
 
+.Close:hover{
+    cursor: pointer;
+}
 .Download:hover{
     cursor: pointer;
     filter: brightness(3);
