@@ -27,7 +27,8 @@
     font-family: "poppins-medium", sans-serif;
 }
 #containerSkills{
-    display: block;
+    display: flex;
+    flex-direction: row;
     height: auto;
     justify-content: center;
     text-align: center;
@@ -112,7 +113,8 @@
         font-family: "poppins-medium", sans-serif;
     }
     #containerSkills{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     #containerButton{
         display: block;
