@@ -1,7 +1,7 @@
 import "./MyWork.css"
 import Project  from "./Project";
 import PicConnect from "../Portfolio Pic/PicConnect.png";
-import Guess from "../Portfolio Pic/Guess/Play.png";
+import Gitpulse from "../Portfolio Pic/Gitpulse.png"
 import Flashcard from "../Portfolio Pic/FlashCard.jpg";
 import Exclusive from "../Portfolio Pic/Exclusive.png";
 import React from 'react';
@@ -16,7 +16,7 @@ function MyWork (){
             <div className="projectContainer">
                 <div className="webProjects">
                     <Project name={"PicConnect"} link = {"https://github.com/PicConnect-2-0/PicConnect_Frontend"} image = {PicConnect}></Project>
-                    <Project name={"Guess"} description = {"Browser Game"} link = {"https://github.com/kinglaine/GUESS"} image = {Guess}></Project>
+                    <Project name={"GitPulse"} description = {"Git Pulse"} link = {"https://github.com/rahimaaa/SEMetrics.frontend"} image = {Gitpulse}></Project>
                 </div>
                 <div className="mobileProjects">
                     <Project name={"Exclusive"} description = {"E-Commerce Mobile Application"} image = {Exclusive} link = {"https://github.com/kinglaine/Exclusive"}></Project>
